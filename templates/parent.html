@@ -20,10 +20,9 @@
     <button class="btn btn-danger">PARENT 2</button>
     <button class="btn btn-succes">PARENT 3</button>
    
+    {%  block body_block %}
     <button class="btn btn-warning">PARENT 4</button>
     <button class="btn btn-secondary">PARENT 5</button>
-    {%  block body_block %}
-
     {% endblock %}
 
     <script src="{% static 'js/bootstrap.js' %}"></script> 
